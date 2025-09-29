@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  react-frontend2:
+    build: .
+    container_name: react-frontend2
+    ports:
+      - "3005:3005"
+    restart: always
